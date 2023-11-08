@@ -6,7 +6,6 @@ float sphere_volume (float);
 int main (void) 
 {
 	float radius = 10.00;
-
 	printf("%f", sphere_volume(radius));
 		
 	return 0;
