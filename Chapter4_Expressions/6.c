@@ -1,3 +1,5 @@
+/* European Article Number (EAN) equivalent of Universal Product Code (UPC)*/
+
 #include <stdio.h>	
 
 int main (void)
