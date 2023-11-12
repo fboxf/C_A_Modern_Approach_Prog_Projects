@@ -36,6 +36,11 @@ int main (void)
 	return 0;
 }
 
+/* 
+* Compute rival commission
+* Pre: shares is defined
+* Post: Amount of commission charged by rival 
+*/
 float calc_rival_commission (float shares)
 {
 	/* Rival broker calc  */
