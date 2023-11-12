@@ -14,6 +14,10 @@ int main (void)
 	return 0;
 }
 
+/* Calculate wind force from knots supplied by user input
+* pre: spd_knots is defined
+* post: print wind force to stdout
+*/
 int wind_force (float wind_speed)
 {
 	if (wind_speed < 1)
