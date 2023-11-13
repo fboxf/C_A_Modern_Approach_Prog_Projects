@@ -20,7 +20,7 @@ int main (void)
 
 		switch (grade_tens_digits) {
 			case 0: case 1: case 2: case 3: case 4: case 5: 
-					printf("%d%d Grade F\n", grade_tens_digits, grade_ones_digits); break;
+				printf("%d%d Grade F\n", grade_tens_digits, grade_ones_digits); break;
 			case 6: printf("%d%d Grade D\n", grade_tens_digits, grade_ones_digits); break;
 			case 7: printf("%d%d Grade C\n", grade_tens_digits, grade_ones_digits); break;
 			case 8: printf("%d%d Grade B\n", grade_tens_digits, grade_ones_digits); break;
