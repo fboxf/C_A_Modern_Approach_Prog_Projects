@@ -1,3 +1,4 @@
+/* Calculates even squares up to user input value */
 #include <stdio.h>
 
 int main (void)
