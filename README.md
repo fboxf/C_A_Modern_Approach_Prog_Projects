@@ -1,3 +1,3 @@
 # C - A Modern Approach Programming Projects
 
-Some of the programming projects for C A Modern Approach by K N King
+Programming projects for C - A Modern Approach by K N King. Work is my own, credit where external information used.
