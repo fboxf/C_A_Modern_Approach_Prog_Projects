@@ -1,3 +1,8 @@
+/* Converts letters to numbers in a user input range 
+Such as: 
+1-800-COL-LECT to
+1-8---265-5328 */
+
 #include <stdio.h>
 #include <ctype.h>
 
@@ -8,7 +13,8 @@ int main (void)
 
 	while ((ch = getchar()) != '\n')
 	{
-		if (isalpha(ch))
+		
+		if (isalpha(ch)) /* <-- from <ctype.h> library*/
 		{
 			switch (ch) 
 			{
