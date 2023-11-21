@@ -54,7 +54,6 @@ int selection_sort (int a[], int n){
 		a[n - 1] = current_largest_element;
 		a[index_number] = previous_rightmost_element;
 	}
-	
 
 	if (n > 0)
 	{
