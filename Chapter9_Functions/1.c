@@ -13,8 +13,7 @@ int selection_sort (int [], int);
 
 int main (void){
 	int i, a[N];	
-
-	/* store N integers */
+	
 	printf("Please enter %d integers: ", N);
 
 	while (i < N){
@@ -37,17 +36,13 @@ int selection_sort (int a[], int n){
 
 	for (int i = 0; i < n; i++)
 	{
-		/* is the current value the highest seen?
-		   	yes - put in current largest
-		   	no - go to next i */
 		if (a[i] > current_largest_element)
 		{
 			index_number = i;
 			current_largest_element = a[i];
 		}
 	}
-
-	/* if highest value is not a[n - 1] then swap them */
+	
 	if (current_largest_element > a[n - 1])
 	{
 		previous_rightmost_element = a[n - 1];
