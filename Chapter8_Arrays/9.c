@@ -2,7 +2,11 @@
  * 0 up
  * 1 down
  * 2 left
- * 3 right */
+ * 3 right 
+ 
+ ***** DOESN'T fully work as procedure seems to skip letters 
+ 
+ */
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
