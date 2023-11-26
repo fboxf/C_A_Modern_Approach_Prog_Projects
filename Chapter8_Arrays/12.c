@@ -1,4 +1,5 @@
-/* Scrabble - sum the value of letters from user input */
+/* Scrabble - sum the value of letters from user input 
+Array version of project 5 from Chapter 7 */
 #include <stdio.h>
 #include <ctype.h>
 
