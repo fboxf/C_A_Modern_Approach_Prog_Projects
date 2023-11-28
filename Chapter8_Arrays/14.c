@@ -1,4 +1,6 @@
-/* https://github.com/fordea/c-programming-a-modern-approach/blob/master/ch08/Projects/14.c*/
+/* Credit to for this one 
+I'm still learning what can be done in for loops 
+https://github.com/fordea/c-programming-a-modern-approach/blob/master/ch08/Projects/14.c*/
 
 #include <stdio.h>
 
