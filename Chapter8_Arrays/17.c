@@ -1,3 +1,5 @@
+/* Solution for magic square problem - took me about a day and was tricky with my current knowledge */
+
 #include <stdio.h>
 #include <stdbool.h>
 
