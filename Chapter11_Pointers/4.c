@@ -1,5 +1,4 @@
-
-/* Modofy the poker.c program of section 10.5 by moving the num_in_rank and
+/* Modify the poker.c program of section 10.5 by moving the num_in_rank and
  * num_in_suit arrays into main, which will pass them as arguments to 
  * read_cards and analyze_hand */
 #include <stdbool.h>
@@ -102,7 +101,7 @@ void read_cards(int num_in_rank[], int num_in_suit[]){
 
 void analyze_hand(bool *straight, bool *flush, bool *four, bool *three, int *pairs,
 		int num_in_suit[], int num_in_rank[]){
-	/* analyze_hand:	Determi e whether the hand contains a
+	/* analyze_hand:	Determine whether the hand contains a
 	 * 					straight, flush etc
 	 * 					Determines the number of pairs, stores the results into
 	 * 					external variables */
@@ -159,5 +158,3 @@ void print_result(bool *straight, bool *flush, bool *four, bool *three, int *pai
 
 	printf("\n\n");
 }
-
-
