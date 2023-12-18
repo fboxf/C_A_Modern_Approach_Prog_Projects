@@ -49,7 +49,7 @@ void check_if_smallest (char a[], char b[]){
 		strcpy(b, a);
 	
 	if (strcmp(a, b) < 0){
-		strcpy(b, a); // copy a to b 
+		strcpy(b, a); 
 	} 
 }
 
