@@ -1,5 +1,6 @@
 /* For brevity, I've removed most of the countries */
 #include <stdio.h>
+#include <stdlib.h>
 
 struct dialing_code {
 	char *country;
@@ -20,8 +21,13 @@ int main (void){
 	for (int i = 0; i < size_of_struct; i++){
 		if (country_codes[i].code == dialing_code){
 			printf("%s\n",country_codes[i].country);
+			exit(EXIT_SUCCESS);
+		} else {
+			continue;
 		}
 	}
+	
+	printf("Code %d not found.\n", dialing_code);
 
 	return 0;
 }
