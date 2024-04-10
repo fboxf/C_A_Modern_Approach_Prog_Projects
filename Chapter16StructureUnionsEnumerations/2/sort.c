@@ -6,8 +6,8 @@
  * Description: Take an array of structures
  * Input:		Array of structures
  * 				n number of parts stored
- * Output:		sort arranged by number
- * 				number
+ * Output:		Array is passed by reference so 
+ *			no output, just sorted (descending)
 **************************************************/ 
 void sort_function(struct part x[], int array_length){
 	struct part temp; // temp structure of type struct part
