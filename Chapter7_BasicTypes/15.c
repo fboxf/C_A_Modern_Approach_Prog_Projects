@@ -5,7 +5,7 @@ short factorial(short);
 
 int main (void){
 	
-	short user_input;
+	short int user_input;
 
 	printf("Enter a positive integer: ");
 	scanf("%hd",&user_input);
